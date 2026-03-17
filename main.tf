@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_security_group" "node_sg" {
 
-  name = "node-api-sg"
+  name = "node-api-sg-devops68"
 
   ingress {
     from_port   = 3015
