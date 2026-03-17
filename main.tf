@@ -48,8 +48,8 @@ user_data = <<-EOF
 
 sudo apt update -y
 
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install nodejs -y
+sudo apt install npm -y
 sudo apt install git -y
 
 cd /home/ubuntu
@@ -58,13 +58,9 @@ git clone https://github.com/phenphitcha4782/devops68-pythagorean-theorem.git
 
 cd devops68-pythagorean-theorem
 
-npm install
+npm install express
 
-sudo npm install -g pm2
-
-pm2 start index.js
-pm2 startup
-pm2 save
+node index.js &
 
 EOF
 
