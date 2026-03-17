@@ -1,0 +1,13 @@
+{
+  "name": "devops68-pythagorean-theorem",
+  "version": "1.0.0",
+  "description": "API to calculate hypotenuse using Pythagorean theorem",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
